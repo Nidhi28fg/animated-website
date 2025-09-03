@@ -4,11 +4,11 @@ import Video from "../components/home/Video";
 
 const Home = () => {
   return (
-    <div>
-      <div className="h-screen w-screen bg-red-700 fixed">
+    <div className=" text-white">
+      <div className="h-screen w-screen fixed">
       <Video/>
       </div>
-      <div className="h-screen w-screen relative flex flex-col">
+      <div className="h-screen w-screen  relative flex flex-col justify-between pb-5 overflow-hidden">
         <HomeHeroText/>
         <HomeBottomText/>
       </div>
